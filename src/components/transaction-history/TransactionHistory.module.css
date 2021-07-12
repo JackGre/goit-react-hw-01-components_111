@@ -1,0 +1,28 @@
+.table {
+    width: 600px;
+    background-color: black;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+      rgba(0, 0, 0, 0.22) 0px 15px 12px;
+  }
+  
+  thead {
+    background-color: rgb(129, 248, 248);
+  }
+  
+  tbody {
+    background-color: rgb(187, 187, 187);
+  }
+  
+  th {
+    padding: 10px;
+    text-transform: uppercase;
+  }
+  
+  td {
+    padding: 10px;
+    text-align: center;
+  }
+  
+  tr:nth-child(2n) {
+    background: rgb(219, 219, 219);
+  }
